@@ -1414,7 +1414,7 @@
         </svg>
       </div>
       <div class='status-container-inner'>
-        <h4 class='title-h4 white status-title main-title'>Сертификат вакцинации от COVID-19</h4>
+        <h4 class='title-h4 white status-title main-title'>Сертификат COVID-19</h4>
         <div class='status mt-12 text-plain small-text bold'>
           <span class='status-value  cert-name'>Действителен</span>
         </div>
@@ -1470,7 +1470,7 @@
           </svg>
         </div>
         <div class='small-text gray mr-4'>Действует до:</div>
-        <div class='small-text gray'>27.04.2022</div>
+        <div class='small-text gray'>27.12.2021</div>
       </div>
     </div>
 
@@ -1492,8 +1492,7 @@
     <div class='mt-24'>
       <a href='https://www.gosuslugi.ru/' class='button close'>Закрыть</a>
       <a download rel='noopener' target='_blank' class='button download hide'></a>
-       <p class='small-text gray delay'  style='display: none'>данный образец не является оффициальным документом <br>
-      и служит лишь примером, как выглядит настоящий сертификат</p>
+       <p class='small-text gray delay'  style='display: none'></p>
     </div>
 
   </div>
@@ -1502,7 +1501,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
       document.querySelector('.container-app-loader').style.display = 'none'
-    }, 500)
+    }, 1000)
     setTimeout(() => {
       document.querySelector('.delay').style.display = 'block'
     }, 300000)
